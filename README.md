@@ -79,8 +79,6 @@ SELECT AVG(age) AS average_age FROM Students;
 ## 👩‍💻 Author
 
 **Shambhavi M P**
-🎓 *B.Tech in Artificial Intelligence & Machine Learning*
 🌐 **GitHub:** [shambhaviprakash77](https://github.com/shambhaviprakash77)
 
 
-```
