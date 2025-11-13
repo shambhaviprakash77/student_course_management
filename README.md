@@ -6,7 +6,7 @@ This project demonstrates a **Student Course Management System** built using **S
 It allows efficient storage, retrieval, and management of student and course-related information.  
 The project focuses on designing relational tables, implementing foreign key relationships, and performing analytical SQL queries to manage academic data seamlessly.
 
-
+---
 
 ## 🚀 Features
 
@@ -21,7 +21,7 @@ The project focuses on designing relational tables, implementing foreign key rel
 
 ## 🗂️ Project Structure
 
-
+```
 
 Student_Course_Management/
 │
@@ -29,7 +29,9 @@ Student_Course_Management/
 ├── table.sql                # Contains all table creation and data insertion queries
 └── README.md                # Project documentation
 
+````
 
+---
 
 ## 🧠 Step-by-Step Workflow
 
@@ -39,33 +41,34 @@ Student_Course_Management/
 4️⃣ **Perform Queries:** Runs operations such as joins, counts, averages, and filters.  
 5️⃣ **View Results:** Displays query results directly in the SQLite terminal or VS Code SQL viewer.  
 
-
+---
 
 ## 🧮 Sample SQL Queries
 
 **Retrieve all students with their enrolled courses:**
-
+```sql
 SELECT Students.name, Courses.course_name
 FROM Students
 JOIN Enrollments ON Students.student_id = Enrollments.student_id
 JOIN Courses ON Enrollments.course_id = Courses.course_id;
-
+````
 
 **Count the number of students enrolled in each course:**
 
-
+```sql
 SELECT Courses.course_name, COUNT(Enrollments.student_id) AS total_students
 FROM Courses
 JOIN Enrollments ON Courses.course_id = Enrollments.course_id
 GROUP BY Courses.course_name;
-
+```
 
 **Calculate average student age:**
 
-
+```sql
 SELECT AVG(age) AS average_age FROM Students;
+```
 
-
+---
 
 ## 🔮 Future Improvements
 
@@ -75,10 +78,13 @@ SELECT AVG(age) AS average_age FROM Students;
 * 🧾 Generate downloadable reports for each student or course.
 * ☁️ Deploy on cloud-based database services for scalability.
 
+---
 
 ## 👩‍💻 Author
 
 **Shambhavi M P**
 🌐 **GitHub:** [shambhaviprakash77](https://github.com/shambhaviprakash77)
+
+
 
 
