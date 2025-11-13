@@ -6,7 +6,7 @@ This project demonstrates a **Student Course Management System** built using **S
 It allows efficient storage, retrieval, and management of student and course-related information.  
 The project focuses on designing relational tables, implementing foreign key relationships, and performing analytical SQL queries to manage academic data seamlessly.
 
----
+
 
 ## 🚀 Features
 
@@ -17,7 +17,7 @@ The project focuses on designing relational tables, implementing foreign key rel
 - 📊 **Data Insights:** Provides analytical queries to count enrollments and calculate averages.  
 - 🧮 **Normalization Ready:** Follows relational design principles to ensure minimal data redundancy.  
 
----
+
 
 ## 🗂️ Project Structure
 
@@ -83,7 +83,7 @@ SELECT AVG(age) AS average_age FROM Students;
 ## 👩‍💻 Author
 
 **Shambhavi M P**
-🌐 **GitHub:** [shambhaviprakash77](https://github.com/shambhaviprakash77)
+**GitHub:** [shambhaviprakash77](https://github.com/shambhaviprakash77)
 
 
 
